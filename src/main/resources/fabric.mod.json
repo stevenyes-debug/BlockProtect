@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "blockprotect",
+  "version": "${version}",
+  "name": "BlockProtect",
+  "description": "Protect selected blocks from being broken by players, including survival and creative players.",
+  "authors": ["UpdateNotice"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["com.blockprotect.BlockProtectMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
